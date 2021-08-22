@@ -1,0 +1,25 @@
+.main{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.main__input{
+    width: 70%;
+    padding: 18px;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid white;
+    font-size: 17px;
+    background-color: rgb(166 132 235 / 86%);
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+
+.main__input::placeholder{
+    color: white;
+}
