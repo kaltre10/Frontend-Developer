@@ -1,0 +1,21 @@
+@import url(./header.css);
+@import url(./form.css);
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: linear-gradient(to top, #8f57fd 0%, #368B85 100%);
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    width: 97%;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
