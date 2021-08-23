@@ -1,0 +1,25 @@
+@import "components/header";
+@import "components/main";
+@import "components/cards";
+@import "components/footer";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #8f57fd;
+  font-family: "Mulish", sans-serif;
+  color: white;
+  width: 97%;
+}
+
+.text-title {
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: -10px;
+}
+
+/*# sourceMappingURL=style.css.map */

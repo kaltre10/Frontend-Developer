@@ -12,13 +12,13 @@
 </head>
 <body>
     <header class="header">
-        <img class="header__img" src="./img/logo-platzi-video-BW2.png" alt="">  
-        <nav class="nav">
+        <img tabindex="0" class="header__img" src="./img/logo-platzi-video-BW2.png" alt="Platzi Video">  
+        <nav tabindex="0" class="nav">
             <img class="nav__img" src="./img/user-icon.png" alt="">
             <p>Perfil</p>
             <ul class="nav__items">
+                <li><a href="#">Login</a></li>
                 <li><a href="#">Cuenta</a></li>
-                <li><a href="#">Carousel</a></li>
                 <li><a href="#">Cerrar Sesion</a></li>
             </ul>
         </nav>   
@@ -26,12 +26,12 @@
      <section class="main">
          <form class="form">
             <h2 class="form__title">Iniciar Sesion</h2>
-            <input class="form__input" type="text" placeholder="userame">
-            <input class="form__input" type="text" placeholder="password">
+            <input aria-label="username" class="form__input" type="text" placeholder="username">
+            <input aria-label="password" class="form__input" type="text" placeholder="password">
             <button class="form__btn">Iniciar Sesion</button>
             <div class="links">
                 <div class="input__remember">
-                    <input type="checkbox"><p href="#">Remember me</p>
+                    <input aria-label="Remember me" type="checkbox"><p href="#">Remember me</p>
                 </div>
                 <a href="#">Olvide mi contraseña</a>
             </div>
