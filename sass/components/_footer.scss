@@ -1,12 +1,12 @@
 .footer__list{
+    padding: 10px 0;
     padding-left: 30px;
-    position: absolute;
-    bottom: 30px;
+    position: relative;
+    bottom: 0px;
     display: flex;
     align-items: flex-end;
     list-style: none;
     font-size: 14px;
-    
 }
 
 .footer__list a{
